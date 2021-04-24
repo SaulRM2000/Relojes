@@ -1,0 +1,95 @@
+*
+{
+  padding: 0;
+  margin: 0;
+}
+
+nav
+{
+    width: 100%;
+    height: 6.4em;
+    background-color: #200c0c;
+}
+
+.nosotros
+{
+    position: absolute;
+    left: 67em;
+    top: 3em;
+}
+
+a
+{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.logo
+{
+  display: inline-block;
+  float: left;
+}
+
+.burger
+{
+    height: 100%;
+    display: inline-block;
+    float: right;
+}
+
+.burger i
+{
+    padding-top: 15px;
+    color: aliceblue;
+    font-size: 5em;
+}
+
+.izquierda
+{
+  float: left;  
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  padding-top: 8em;
+  padding-right: 50em
+}
+
+.izquierda img
+{
+    width: 12em;
+    height: 15em;
+}
+
+.derecha
+{
+  position: relative;
+}
+
+form
+{
+    position: absolute;
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    top: 8em;
+    left: 40em;
+}
+
+form input
+{
+    margin-top: 1em;
+}
+
+.pagos_metodos_label
+{
+    left: 1em;
+    top: 10em;
+    position: absolute;
+}
+
+[tajeta="1"]
+{  
+    position: absolute;
+    top: 1.8em;
+}
