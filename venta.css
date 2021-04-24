@@ -11,6 +11,14 @@ nav
     background-color: #200c0c;
 }
 
+.leyendaAlta
+{
+    position: absolute;
+    width: 30em;
+    left: 20em;
+    top: 7em;
+}
+
 .nosotros
 {
     position: absolute;
@@ -52,18 +60,24 @@ a
   height: 50px;
   display: inline-block;
   padding-top: 8em;
-  padding-right: 50em
+  padding-right: 50em;
+  z-index: 5;
+  
 }
 
 .izquierda img
 {
     width: 12em;
     height: 15em;
+    z-index: 5;
+    margin-left: 30px;
+    position: relative;
 }
 
 .derecha
 {
   position: relative;
+  z-index: 2;
 }
 
 form
@@ -92,4 +106,45 @@ form input
 {  
     position: absolute;
     top: 1.8em;
+}
+
+.adorno_fondo
+{
+    width: 600px;
+    height: 280px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    position: absolute;
+    top: 13em;
+    left: 15em;
+    z-index: 1;
+    border: 2px solid black;
+}
+
+.adorno_linea
+{
+  position: absolute;
+  top: 14em;
+  left: 38em;
+  background-color: rgb(202, 177, 34);
+  width: 2px;
+  height: 15em;
+  z-index: 5;
+}
+
+.comprar
+{
+    position: absolute;
+    top: 3em;
+    width: 5em;
+    margin-top: 15px;
+    margin-left: 6em;
+    background-color: rgb(62, 62, 184);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+[type="radio"]
+{
+    cursor: pointer;
 }
