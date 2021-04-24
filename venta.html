@@ -9,12 +9,14 @@
     <title>venta_reloj</title>
 </head>
 <body>
+    <div class="adorno_linea"></div>
+    <div class="adorno_fondo"></div>
     <nav>
         <div class="logo"><img src="Img\LOGO2.png" alt="" srcset=""></div>
         <div class="nosotros"><a href="index.html">Home</a></div>
         <div class="burger"><i class="material-icons">home</i></div>
     </nav>
-
+          <img src="Img\Proceso de compra.png" alt="" srcset="" class="leyendaAlta">
     <article class="izquierda">
         <img src="Img/vector.png" alt="" srcset="">
     </article>
@@ -27,19 +29,22 @@
         <input type="text" placeholder="Direccion">
         <br>
        <h4>Metodo de pago</h4>
-        <input type="radio" name="" id=""> <input type="radio">
+       <input type="radio" id="Efectivo" name="pago" value="Efectivo">
+       
+       <input type="radio" id="tajeta" name="pago" value="tarjeta">
+       
+       <div class="pagos_metodos_label">
+        <label for="Efectivo">Efectivo</label>
+        <br>
+ 
+        <label for="tarjeta" tajeta="1">Tarjeta</label>
 
-        <div class="pagos_metodos_label">
-           <label for="container">Efectivo</label>
-           <br>
-    
-           <label for="container" tajeta="1">Tarjeta</label>
-        </div>
-        
-        
-
+        <a href="nosotros.html"></a><button type="submit" class="comprar" id="comprar">Comprar</button></a>
 
       </form>
+
+      
     </article>
+    <script src="venta.js"></script>
 </body>
 </html>
